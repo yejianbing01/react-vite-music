@@ -24,6 +24,7 @@ export default tseslint.config(
         { allowConstantExport: true },
       ],
       'no-multiple-empty-lines': ['error', { max: 1, maxEOF: 0 }],
+      '@typescript-eslint/no-explicit-any': 'warn'
     },
   },
 )
